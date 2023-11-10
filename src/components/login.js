@@ -43,7 +43,9 @@ const Login = () => {
             </button>{" "}
             <p>
               {" "}
-              Don 't have an account? <NavLink to="/register">Sign Up</NavLink>
+              Don 't have an account? <NavLink to="/register">
+                Sign Up{" "}
+              </NavLink>{" "}
             </p>{" "}
           </form>{" "}
         </div>{" "}

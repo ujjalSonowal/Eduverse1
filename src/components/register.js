@@ -42,8 +42,8 @@ const Register = () => {
                   {" "}
                   {!passShow ? "Show" : "Hide"}{" "}
                 </div>{" "}
-              </div>
-              <label htmlFor="confirm_password">Confirm Password </label>{" "}
+              </div>{" "}
+              <label htmlFor="confirm_password"> Confirm Password </label>{" "}
               <div className="two">
                 <input
                   type={!passShow ? "password" : "text"}
@@ -58,13 +58,16 @@ const Register = () => {
                   {" "}
                   {!passShow ? "Show" : "Hide"}{" "}
                 </div>{" "}
-              </div>
+              </div>{" "}
               <button className="btn" type="submit">
                 {" "}
                 Sign Up{" "}
               </button>{" "}
               <p>
-                Already have an account? <NavLink to="/">Login</NavLink>
+                Already have an account ?{" "}
+                <NavLink to="/" style={{ textDecoration: "none" }}>
+                  Login{" "}
+                </NavLink>{" "}
               </p>{" "}
             </div>{" "}
           </form>{" "}
