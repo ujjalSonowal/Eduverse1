@@ -9,9 +9,7 @@ const header = () => {
         <div className="dropdown">
           <button class="dropbtn">
             <Avatar style={{ background: "green" }}> U </Avatar>{" "}
-            {/*
-                <i className = "fa fa-caret-down">
-                </i>*/}{" "}
+            {/* <i className = "fa fa-caret-down"></i>*/}{" "}
           </button>{" "}
           <div className="dropdown-content">
             <a href="/"> Profile </a>
@@ -19,7 +17,10 @@ const header = () => {
           </div>{" "}
         </div>{" "}
         <a href="/"> Home </a>
-        <a href="/"> Calender </a> {/* <a href=" / ">Enrolled</a> */} {""}
+        <a href="/">
+          {" "}
+          Calender{" "}
+        </a> {/* < a href = " / " > Enrolled < /a> */} {""}
         <div style={{ marginTop: "14px" }} className="dropdown">
           <button className="dropbtn">
             {" "}
@@ -27,7 +28,7 @@ const header = () => {
           </button>{" "}
           <div className="dropdown-content">
             <a href="/"> Join Course </a>
-            <a href="/"> Create Course</a>{" "}
+            <a href="/"> Create Course </a>{" "}
           </div>{" "}
         </div>{" "}
         <h1> EduVerse </h1>{" "}

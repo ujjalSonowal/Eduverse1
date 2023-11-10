@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./register.css";
+import "./login.css";
 
 const Login = () => {
   const [passShow, setPassShow] = useState(false);
