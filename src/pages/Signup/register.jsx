@@ -20,11 +20,11 @@ const Register = () => {
                 id="name"
                 placeholder="Enter your fullname"
               />{" "}
-              <label htmlFor="Email"> Email </label>{" "}
+              <label htmlFor="RollNo"> Roll No. </label>{" "}
               <input
-                type="email"
-                name="email"
-                id="email"
+                type="text"
+                name="rollno"
+                id="rollno"
                 placeholder="Enter your email id"
               />{" "}
               <label htmlFor="password"> Password </label>{" "}

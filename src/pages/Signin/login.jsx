@@ -13,11 +13,11 @@ const Login = () => {
           </div>{" "}
           <form>
             <div className="form_input">
-              <label htmlFor="Email"> Email </label>{" "}
+              <label htmlFor="rollno"> Roll No. </label>{" "}
               <input
-                type="email"
-                name="email"
-                id="email"
+                type="text"
+                name="rollno"
+                id="rollno"
                 placeholder="Enter your email id"
               />{" "}
               <label htmlFor="password"> Password </label>{" "}
